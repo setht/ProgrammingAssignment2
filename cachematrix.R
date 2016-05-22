@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## functions paid to create a matrix object that has implemented caching mechanisms 
+## and the function that both solves and caches the solution so subsequent calls will return the cached object rather than solving
 
-## Write a short comment describing this function
+## builds a matrix object that include methods for getting/setting pertintent data for it
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## solves and caches results for matrix objects enhanced with makeCacheMatrix
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
